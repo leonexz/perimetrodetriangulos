@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="main.css">
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="text-center" id="contenedor-formulario" style="top:auto ;margin-left: -70px;">
+            <form action="procesoTriangulo.jsp" method="post">
+                <div class="mb-0">
+                    <label class="form-label ">Parametro M1:</label>
+                    <input class="form-control" type="number" name="m1" required>
+                </div>
+                
+                <div class="mb-0">
+                    <label class="form-label">Parametro M2:</label>
+                    <input class="form-control" type="number" name="m2" required>
+                </div>
+                
+                <div class="mb-0">
+                    <label class="form-label">Parametro N1:</label>
+                    <input class="form-control" type="number" name="n1" required>
+                </div>
+                
+                <div class="mb-0">
+                    <label class="form-label">Parametro N2:</label>
+                    <input class="form-control" type="number" name="n2" required>
+
+                </div>
+                <div class="mb-0">
+                    <label class="form-label">Parametro P1:</label>
+                    <input class="form-control" type="number" name="p1" required>
+                </div>
+                <div class="mb-0">
+                    <label class="form-label">Parametro P2:</label>
+                    <input class="form-control" type="number" name="p2" required>
+                </div>
+                <br>
+
+                <div class="container-fluid h-100"> 
+                    <div class="row w-100 align-items-center">
+                        <div class="col text-center">
+                            <button type="submit" class="btn btn-danger regular-button"> Calcular </button>
+                        </div>	
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    </body>
+</html>
